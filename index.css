@@ -1,7 +1,7 @@
 .home-main-section {
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-grow: 1;
 }
 
@@ -11,6 +11,7 @@
   display: flex;
   align-items: stretch;
   justify-content: flex-end;
+  max-width: 50vw;
 }
 
 .home-main-section .lady-image {
@@ -27,7 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 1rem;
+    margin: 2rem;
     align-self: center; /*allows default alignment to be overridden*/
 }
 
@@ -40,44 +41,58 @@
     }
 }
 
-.home-page-circle-1 {
+.ellipse {
     position: absolute;
-    width: 25vw;
-    height: 25vw;
     border-radius: 50%;
-    background-color: rgba(188,58,128,.1);
-    bottom: 5vw;
-    left: 5vw;
     z-index: -1;
 }
 
-.home-page-circle-2 {
-    position: absolute;
-    width: 25vw;
-    height: 25vw;
-    border-radius: 50%;
-    background-color: rgba(52, 87, 178,.1);
-    top: 15vh;
-    left: 30vw;
-    z-index: -1;
-}
-
-.home-page-circle-3 {
-    position: absolute;
+.ellipse-1 {
+    border-radius: 0;
     overflow: hidden;
-    width: 45vw;
-    height: 45vw;
+    width: 10vw;
+    height: 20vw;
     bottom: 0;
     right: 0;
-    z-index: -1;
+    
 }
 
-.home-page-circle-3::before { /*need pseudo selector so it can overflow parent and not cause page to scroll*/
+.ellipse-1::before { /*need pseudo selector so it can overflow parent and not cause page to scroll*/
     content: '';
-    transform: translate(40%,40%);
+    transform: translate(30%,30%) rotate(39.04deg); 
     position: absolute;
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    background-color: rgba(52, 87, 178,.1);
+    background: rgba(99, 46, 38, 0.2);
 }
+
+.ellipse-2 {
+    width: 15vw;
+    height: 25vw;
+    bottom: 5vw;
+    right: 10vw;
+    background: rgba(211, 76, 18, 0.2);
+    transform: rotate(47.63deg);
+}
+
+.ellipse-3 {
+    width: 20vw;
+    height: 30vw;
+    bottom: 12vw;
+    right: 30vw;
+    background: rgba(233, 180, 46, 0.2);
+    transform: rotate(40.63deg);
+}
+
+.ellipse-4 {
+    width: 25vw;
+    height: 30vw;
+    bottom: 12vw;
+    right: 58vw;
+    background: rgba(228, 240, 94, 0.2);
+    transform: rotate(27.63deg);
+}
+
+
+

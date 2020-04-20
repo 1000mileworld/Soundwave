@@ -8,11 +8,14 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #2F3038;
     font-family: Poppins, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
     min-height: 100vh;
+
+    background: linear-gradient(240.64deg, #E02929 0%, rgba(235, 179, 70, 0.49) 85.83%, rgba(251, 241, 12, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .full-height-grow {
@@ -23,13 +26,16 @@ body {
 .brand-logo {
     display: flex;
     align-items: center;
-    font-size: 1.25em;
+    font-size: 2rem;
     color: inherit;
     text-decoration: none;
 }
 
 .brand-logo-name {
     margin-left: 1rem;
+}
+.main-nav ul li {
+    margin-left: 2rem;
 }
 
 .main-nav ul, .footer-nav ul {
@@ -76,42 +82,48 @@ body {
     justify-content: space-between;
 }
 
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 40px;
     flex-grow: 1;
 }
 
 .title {
-    font-weight: 500;
-    font-size: 3em;
+    font-weight: normal;
+    font-size: 4.5rem;
     margin-bottom: 1rem;
     margin-top: 0;
 }
 
 .subtitle {
-    font-weight: 500;
-    font-size: 1.2em;
-    margin-bottom: 2rem;
+    font-weight: normal;
+    font-size: 2.25rem;
+    margin-bottom: 4rem;
 }
 
 .btn {
     color: white;
-    background-color: #1762a7;
+    background-color: hsl(14,76%,37%);
     padding: .75rem 1.5rem;
     border-radius: .5rem;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 2rem;
     outline: none;
     border: none;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #2180d8;
+    background-color: hsl(14,76%,57%);
 }
 
 .btn:focus {
-    background-color: #2796ff;
+    background-color: hsl(14,76%,20%);
 }
