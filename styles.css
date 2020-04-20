@@ -1,5 +1,6 @@
 /*shared styles*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 *, *::before, *::after{
     box-sizing: border-box;
@@ -26,13 +27,16 @@ body {
 .brand-logo {
     display: flex;
     align-items: center;
-    font-size: 2rem;
     color: inherit;
     text-decoration: none;
 }
 
 .brand-logo-name {
     margin-left: 1rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    color: hsl(336, 100%, 50%);
 }
 .main-nav ul li {
     margin-left: 2rem;
