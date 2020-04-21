@@ -132,22 +132,9 @@ body {
     background-color: hsl(14,76%,20%);
 }
 
-@media (max-width: 1024px) {
-    .title {
-        margin: 1rem auto;
-    }
-    .btn {
-        margin: auto;
-    }
-}
-
 @media (max-width: 600px) {
     .main-header {
         align-items: stretch;
-    }
-    .main-header .container {
-        flex-direction: column;
-        padding: 0;
     }
     .brand-logo {
         width: 100vw;
@@ -167,12 +154,27 @@ body {
     .main-nav a {
         padding: 0;
     }
-    .title {
-        font-size: 2rem;
-        margin: auto;
+    
+    .container {
+        padding: 0;
     }
-    .subtitle {
-        font-size: 1.2rem;
-        margin: 1rem;
+
+    .main-footer {
+        height: auto;
+    }
+    .main-footer .container {
+        flex-direction: column;
+    }
+    .footer-nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-nav ul li {
+        padding: 1rem;
+        margin: auto;
+        border: 1px solid;
+        width: 100vw;
+        font-size: 1rem;
     }
 }
+

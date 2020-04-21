@@ -85,7 +85,29 @@
     transform: rotate(27.63deg);
 }
 
+@media (max-width: 600px) {
+    .main-header .container {
+        flex-direction: column;
+        padding: 0;
+    }
+   
+    .title {
+        font-size: 2rem;
+        margin: auto;
+    }
+    .subtitle {
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+}
+
 @media (max-width: 1024px) {
+    .title {
+        margin: 1rem auto;
+    }
+    .btn {
+        margin: auto;
+    }
     .home-main-section {
         flex-direction: column-reverse;     
     }

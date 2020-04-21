@@ -38,15 +38,55 @@
     width: 40px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+    .title {
+        font-size: 2.7rem;
+    }
     .discover-main-section {
         flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .discover-main-section .covers-image {
+        width: 60%;
+    }
+    .discover-main-section .call-to-action {
+        width: 70%;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    .discover-main-section .call-to-action .icon-section {
         justify-content: center;
     }
+}
 
+@media (max-width: 600px) {
+    .main-header {
+        flex-direction: column;
+        padding: 0;
+    }
+    .title {
+        font-size: 2rem;
+        margin: auto;
+    }
+    .subtitle {
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+    .icon {
+        width: 80px;
+        height: 80px;
+        font-size: 1rem;
+    }
     .discover-main-section .covers-image {
-        margin-top: 2rem;
-        height: 30vh;
-        width: auto;
+        margin-top: 1rem;
+    }
+    .discover-main-section .call-to-action {
+        width: 100%;
+        padding: .5rem;
     }
 }
+
+
