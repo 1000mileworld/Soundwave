@@ -54,19 +54,6 @@
     border-color: hsl(0,91%,32%);
 }
 
-@media (max-width: 900px) {
-    .join-main-section {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .join-form {
-        width: 80vw;
-        max-width: inherit;
-        margin: 2rem 0;
-    }
-}
-
 .join-page-circle-1 {
     position: absolute;
     overflow: hidden;
@@ -105,4 +92,17 @@
     width: 100%;
     border-radius: 50%;
     background-color: rgba(211, 76, 18,.2);
+}
+
+@media (max-width: 900px) {
+    .join-main-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .join-form {
+        width: 80vw;
+        max-width: inherit;
+        margin: 2rem 0;
+    }
 }
