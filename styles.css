@@ -172,7 +172,7 @@ body {
     .footer-nav ul li {
         padding: 1rem;
         margin: auto;
-        border: 1px solid;
+        border: 1px solid rgba(228, 240, 94, 0.4);
         width: 100vw;
         font-size: 1rem;
     }

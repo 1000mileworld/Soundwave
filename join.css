@@ -94,15 +94,51 @@
     background-color: rgba(211, 76, 18,.2);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
     .join-main-section {
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
     }
-
     .join-form {
-        width: 80vw;
-        max-width: inherit;
-        margin: 2rem 0;
+        width: 80%;
+        max-width: 100%;
+    }
+    .join-page-circle-1, .join-page-circle-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-header {
+        flex-direction: column;
+        padding: 0;
+    }
+    .join-main-section {
+        padding: 1rem;
+    }
+    .join-text {
+        font-size: 1.5rem;
+    }
+    .accent-text {
+        font-size: 2.5rem;
+        color: #E4F05E;
+    }
+    .join-form {
+        padding: .7rem;
+        width: 90%;
+        border: none;
+    }
+    .join-form .input-group {
+        margin-bottom: .5rem;
+        font-size: 1rem;
+    }
+    .join-form .input-group input {
+        border: 1px solid #6C0505
+    }
+    .join-form button {
+        font-size: 1.2rem;
     }
 }

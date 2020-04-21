@@ -38,6 +38,7 @@
     width: 40px;
 }
 
+
 @media (max-width: 1024px) {
     .container {
         width: 100%;
