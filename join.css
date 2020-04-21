@@ -6,21 +6,23 @@
 }
 
 .join-text {
-    font-size: 3.5em;
+    font-size: 4rem;
     font-weight: bold;
     margin: 0;
 }
 
 .accent-text {
-    color: #BC3A80;
+    color: #E02929;
+    font-size: 6rem;
 }
 
 .join-form {
-    background-color: #202027;
     width: 50vw;
     max-width: 50%;
     padding: 2rem 4rem;
     border-radius: 20px;
+    background: rgba(203, 60, 29, 0.3);
+    border: 7px solid #6C0505;
 }
 
 .input-group {
@@ -41,7 +43,7 @@
 .input-group input {
     outline: none;
     background: none;
-    border: 1px solid #2E3852;
+    border: 6px solid #6C0505;
     font-size: 1em;
     padding: .5em;
     color: inherit;
@@ -49,7 +51,7 @@
 }
 
 .input-group input:focus {
-    border-color: #596da0;
+    border-color: hsl(0,91%,32%);
 }
 
 @media (max-width: 900px) {
@@ -82,7 +84,7 @@
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    background-color: rgba(188, 58, 128,.1);
+    background-color: rgba(233, 180, 46,.2);
 }
 
 .join-page-circle-2 {
@@ -102,5 +104,5 @@
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    background-color: rgba(52, 87, 178,.1);
+    background-color: rgba(211, 76, 18,.2);
 }

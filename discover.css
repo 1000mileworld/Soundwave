@@ -6,14 +6,19 @@
 }
 
 .discover-main-section .covers-image {
-    width: 30vw;
-    margin-left: 2rem;
+    width: 50%;
     height: auto;
-    max-width: 350px;
+    max-width: 620px;
+}
+
+.discover-main-section .call-to-action {
+    width: 40vw;
+    margin-left: 10%;
 }
 
 .icon-section {
     display: flex;
+    margin: 1rem auto;
 }
 
 .icon {
@@ -25,7 +30,7 @@
     padding: .75rem;
     width: 100px;
     height: 100px;
-    background-color: #202027;
+    background-color: #6C0505;
     margin-bottom: 2rem;
 }
 
