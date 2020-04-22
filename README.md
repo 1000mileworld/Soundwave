@@ -1,2 +1,2 @@
-# soundwave
-Soundwave: a beautiful and responsive music app
+# Soundwave
+A simple yet beautiful and responsive music app
